@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body {
+  background-color: #212121;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  width: 250px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b22222;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  width: 250px;
+  color: #fff;
+  background-color: #424242;
+  border: none;
+  padding: 5px 10px;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #424242;
+  border: none;
+}
+
+button:hover {
+  background-color: #616161;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+#buttons button {
+  width: 72px;
+  margin: 0;
+}
+#add-blocked-url {
+  color: #fff;
+  background-color: #0f9d58;
+}
+#remove-blocked-url {
+  color: #fff;
+  background-color: #da1010;
+}
+
+#remove-blocked-url:hover {
+  background-color: rgb(141, 9, 9);
+}
+#turn-on-off {
+  display: flex;
+  float: right;
+  margin-top: 10px;
+}
+#turn-on-off img {
+  filter: invert(37%) sepia(81%) saturate(578%) hue-rotate(73deg)
+    brightness(96%) contrast(88%);
+  cursor: pointer;
+}
