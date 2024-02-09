@@ -1,3 +1,5 @@
+# Status: Abandoned
+
 # Website Blocker
 
 This is a simple website blocker extension.
